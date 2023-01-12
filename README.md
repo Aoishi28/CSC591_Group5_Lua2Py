@@ -9,7 +9,7 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/Aoishi28/CSC591_Group5_Lua2Py?style=plastic)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Aoishi28/CSC591_Group5_Lua2Py?style=plastic)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Aoishi28/csc591_Group5_Lua2Py?style=plastic](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/pulls)
-[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Aoishi28/CSC591_Group5_Lua2Py?style=plastic](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/pulls)
+[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Aoishi28/CSC591_Group5_Lua2Py?style=plastic)](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/pulls)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Aoishi28/CSC591_Group5_Lua2Py)
 
 
