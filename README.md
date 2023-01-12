@@ -1,6 +1,6 @@
 # CSC591_Group5_Lua2Py
 ## Migrating LUA CodeBase to Python 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7531036.svg)](https://doi.org/10.5281/zenodo.7531036)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7531036.svg)](https://doi.org/10.5281/zenodo.7531036?style=plastic)
 [![license](https://img.shields.io/github/license/Aoishi28/CSC591_Group5_Lua2Py?style=plastic)](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/blob/main/LICENSE.md)
 ![](https://img.shields.io/github/repo-size/Aoishi28/CSC591_Group5_Lua2Py?style=plastic)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Aoishi28/CSC591_Group5_Lua2Py?style=plastic)
