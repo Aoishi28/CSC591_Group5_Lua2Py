@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Hello!! If you use this software, please cite it using the metadata from this file"
+title: "Basic Model"
+abstract: "This is the basic working model having classes and functions return values like medians and standard deviation for numeric columns, mode and entropy for symbolic columns."
+authors:
+  - family-names: Joshi
+    given-names: Ashish
+  - family-names: Das
+    given-names: Aoishi
+  - family-names: Mohan
+    given-names: Swarnamalya
+version: "1.0.0"
+date-released: "01/12/2023"
+doi: 10.5281/zenodo.7531036
