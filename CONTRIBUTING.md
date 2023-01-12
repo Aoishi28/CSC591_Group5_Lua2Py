@@ -20,7 +20,7 @@ The following is a set of guidelines for contributing to the Lua2Py repo, which 
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the given [email](mailto:swarnamalya65@gmail.com).
+This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the given [email](mailto:ajoshi24@ncsu.edu).
 
 
 ## What should I know before I get started?
@@ -63,7 +63,7 @@ Provide more context by answering these questions:
 
 This section guides you through submitting an enhancement suggestion, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
 
-* **Drop an [email](swarnamalya65@gmail.com) suggesting your change and start writing code.**
+* **Drop an [email](ajoshi24@ncsu.edu) suggesting your change and start writing code.**
 * **Do not open an issue on GitHub until you have collected positive feedback about the change. GitHub issues are primarily intended for bug reports and fixes.**
 
 
