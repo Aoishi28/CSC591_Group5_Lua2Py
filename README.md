@@ -1,6 +1,7 @@
 # CSC591_Group5_Lua2Py
 ## Migrating LUA CodeBase to Python 
 
+[![license]https://img.shields.io/github/license/Aoishi28/CSC591_Group5_Lua2Py?style=plastic
 ##  Features
 | Function      |Converting csv.lua file to a Python file performing similar functionalities.   |
 | ------------- |:-------------:|
