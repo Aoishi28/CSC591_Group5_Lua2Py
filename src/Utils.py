@@ -54,4 +54,18 @@ class Utils:
     # return sorted list of keys of given list
     def keys(self, t):
         return self.sort(self.kap(t,lambda k,_:k))
+
+    # Utility functions for Strings
+
+    def o(self,t,isKeys):
+        if type(t)!=list:
+            return str(t)
+        
+
+        
+
+    
+    def oo(self,t):
+        print(self.o(t))
+        return t
     
