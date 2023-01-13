@@ -1,4 +1,4 @@
-# CSC591_Group5_Lua2Py
+# Lua2Py - Homeworks for CSC 591(Automated SE)
 
 <p align="center">
   <img width="400" height="400" src="https://github.com/Aoishi28/CSC591_Group5_Lua2Py/blob/main/etc/img/logo.png">
