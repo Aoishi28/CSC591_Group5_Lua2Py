@@ -24,6 +24,31 @@
 
 - Download [Python3](https://www.python.org/downloads/) 
 
+### Installation:
+    
+   
+
+  - Clone [this repository](https://github.com/Aoishi28/CSC510_Group8_HW2).
+
+  - Install the dependencies at using the requirements file at the root:
+    bash
+    $ cd CSC510_Group8_HW2
+    $ pip install -r requirements.txt
+    
+
+### Code Testing:
+  - Run tests using Pytest:
+    bash
+    $ cd CSC510_Group8_HW2
+    $ pytest
+    
+  - Run tests using code:
+    bash
+    $ cd CSC510_Group8_HW2
+    $ cd test
+    $ python test_all.py
+
+
 ## 🤝 Contributions by:-
 - [👨‍💻 Ashish Joshi](https://github.com/ashishjoshi2605)
 - [👩‍💻 Aoishi Das](https://github.com/Aoishi28)
