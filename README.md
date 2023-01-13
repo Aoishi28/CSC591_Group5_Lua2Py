@@ -22,7 +22,7 @@
 
 
 ##  Features
-| Function      |Converting csv.lua file to a Python file performing similar functionalities.   |
+|HW1|NUM and SYM classes and some utility functions|
 | ------------- |:-------------:|
 
 ## Getting Started:
