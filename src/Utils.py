@@ -1,4 +1,5 @@
 import math
+import re
 class Utils:
     def __init__(self) -> None:
         self.seed = 937162211
@@ -61,9 +62,25 @@ class Utils:
         if type(t)!=list:
             return str(t)
         
+    def coerce(self,s):
+        def fun(s1):
+            if(s1=='true'):
+                return True
+            elif(s1=='false'):
+                return False
+            return s1
+        try:
+            return int(s)
+        except ValueError:
+            try:
+                return float(s)
+            except ValueError:
+                return fun(re.search('^\s*(.+?)\s*$'),s).group((1))
+        except Exception as e:
+            print("Error 101 : corece_file_crashed")
+
 
         
-
     
     def oo(self,t):
         print(self.o(t))
