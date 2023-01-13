@@ -1,7 +1,26 @@
+import math
 class Utils:
     def __init__(self) -> None:
         self.seed = 937162211
     
+    # Utility function for numerics
+    def rand(self,lo,hi):
+        if(lo is None):
+            lo=0
+        if(hi is None):
+            hi=1
+        self.seed=(16807*self.seed)%2147483647
+        return lo+(hi-lo)*self.seed/2147483647
+
+    def rint(self,lo,hi):
+        return math.floor(0.5+self.rand(lo,hi))
+
+    def rnd(self,n,nPlaces):
+        if(nPlaces is None):
+            nPlaces=3
+        mult=math.pow(10,nPlaces)
+        return math.floor(n*mult+0.5)/mult
+
     # Utility functions for lists
 
     # map a function fun(v) over list (skip nil results)
