@@ -61,7 +61,17 @@ class Utils:
     def o(self,t,isKeys):
         if type(t)!=list:
             return str(t)
-        
+        def fun(k,v):
+            if str(k).find('^_') == -1:
+                return format(':{} {}', self.o(k), self.o(v))
+
+        if (len(t)>0 and not isKeys):
+            return '{' + ' '.join(str(item) for item in self.map(t,self.o)) + '}'
+        else:
+            return '{' + ' '.join(str(item) for item in self.kap(t,fun)) + '}'
+
+
+
     def coerce(self,s):
         def fun(s1):
             if(s1=='true'):
