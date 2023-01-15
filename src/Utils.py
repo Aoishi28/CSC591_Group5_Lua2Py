@@ -83,7 +83,7 @@ def coerce( s):
         try:
             return float(s)
         except ValueError:
-            return fun(re.search('^\s*(.+?)\s*$'),s).group((1))
+            return fun(re.search('^\s*(.+?)\s*$',s).group((1)))
     except Exception as e:
         print("Error 101 : corece_file_crashed")
 

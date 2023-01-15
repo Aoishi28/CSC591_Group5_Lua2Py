@@ -14,9 +14,9 @@ help = '''script.lua : an example script with help text and a test suite
         ACTIONS:'''
 d = Main.settings(help)
 
-print("Fetched options: ", d)
+print("Fetched options after running settings function: ", d)
 
 options = Main.cli(d)
 
-print(options)
+print("Fetched options after running cli functions: ",options)
 
