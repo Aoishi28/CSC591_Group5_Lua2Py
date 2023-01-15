@@ -22,8 +22,8 @@ class NUM:
             d=n-self.mu
             self.mu=self.mu+d/self.n
             self.m2=self.m2+d*(n-self.mu)
-            self.lo=math.min(n,self.lo)
-            self.hi=math.max(n,self.hi)
+            self.lo= min(n,self.lo)
+            self.hi= max(n,self.hi)
         
 
     def mid(self):
@@ -39,5 +39,5 @@ class NUM:
         if(self.m2<0 or self.n<2):
             return 0
         else:
-            return math.pow((self.m2/(self.n-1)),0.5)
+            return (self.m2/(self.n-1))**0.5
         

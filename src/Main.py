@@ -24,11 +24,13 @@ def settings(help):
         print("Error occurred while parsing the help string:\n", e)
 
 def main(options,help,funs):
+    
     saved = dict()
     fails = 0
     for k,v in cli(settings(help)).items():
         options[k] = v
         saved[k] = v
+    
     if options['help']:
         print(help)
     else:
@@ -37,11 +39,11 @@ def main(options,help,funs):
                 for k,v in saved.items():
                     options[k] = v
                 Seed = options['seed']
-                if funs[what] == False:
+                if funs[what]() == False:
                     fails += 1
-                    print("X fail:", what)
+                    print("❌ fail:", what)
                 else:
-                    print("V pass:", what)
+                    print("✅ pass:", what)
             
 
 

@@ -17,16 +17,16 @@ class SYM:
                 self.most, self.mode = self.has[x], x
             
 
-    def mid(self, x) -> str:
+    def mid(self) -> str:
         return self.mode
 
-    def div(self, x) -> float:
+    def div(self) -> float:
         
         def fun(p):
             return p*math.log(p,2)
         
         e = 0
-        for _, n in enumerate(self.has):
+        for _, n in self.has.items():
             e += fun(n/self.n)
             
         return -e

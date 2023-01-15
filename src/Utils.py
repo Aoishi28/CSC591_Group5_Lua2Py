@@ -4,6 +4,7 @@ import re
 seed = 937162211    
 # Utility function for numerics
 def rand(lo,hi):
+    global seed
     if(lo is None):
         lo=0
     if(hi is None):
@@ -91,6 +92,6 @@ def coerce( s):
     
 
 def oo(t):
-    print(o(t))
+    # print(o(t))
     return t
     

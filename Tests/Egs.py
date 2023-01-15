@@ -1,13 +1,11 @@
-class Eg:
-    """
-    Test class for the
-    """
+class Egs:
+    def __init__(self, help_input) -> None:
+        self.help = help_input
+        self.egs = dict()
 
-    def egs(self, key,str,fun):
+    def eg(self,key,str,fun):
         """
         Test format for different example scenarios
         """
-        eg = {}
-        eg[key] = fun
-        help = help.format("-g  %s\t%s\n",key,str)
-        return help
+        self.egs[key] = fun
+        self.help += "  -g  {0}\t{1}\n".format(key,str)
