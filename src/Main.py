@@ -5,14 +5,18 @@ import re
 
 
 def cli(options):
+    
     vals=options.keys()
     arg=sys.argv
+    
     arg=arg[1:]
     for k in vals:
         v=str(options[k])
         for n,x in enumerate(arg):
-            if(x=='-'+ k[0] or x=='--'+k):
-                v= v=="False" and "True" or v=="True" and "False" or arg[n+1]
+            if x=="-"+k[0] or x=="--"+k:
+                if    v=="False": v="True"
+                elif  v=="True": v="False"
+                else: v= arg[n+1]
         options[k] = coerce(v)
 
     return options
