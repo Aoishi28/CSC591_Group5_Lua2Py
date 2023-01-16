@@ -27,7 +27,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test and code coverage with custom test engine
       run: |
-        python -m coverage run -m src.main -e ALL
+        python -m coverage run -m src.Main -e ALL
         codeCoverageStr=$(python -m coverage report | grep 'TOTAL')
         codeCoverage=$(echo $codeCoverageStr | awk '{print $4}')
         echo "Code coverage: $codeCoverage"
