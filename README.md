@@ -20,7 +20,7 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/Aoishi28/CSC591_Group5_Lua2Py?style=plastic)
 [![Tests](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/test.yml/badge.svg)](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/test.yml)
 [![Pylint](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/pylint.yml/badge.svg)](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/pylint.yml)
-
+[![Python Style Checker](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/python_style_checker.yml/badge.svg)](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/python_style_checker.yml)
 
 ##  Features
 |HW1|NUM and SYM classes and some utility functions|
