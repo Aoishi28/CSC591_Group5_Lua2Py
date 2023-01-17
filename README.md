@@ -18,7 +18,7 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Aoishi28/CSC591_Group5_Lua2Py)](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/releases/tag/v1.0.0)
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/Aoishi28/CSC591_Group5_Lua2Py?style=plastic)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Aoishi28/CSC591_Group5_Lua2Py?style=plastic)
-
+[![Tests](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/test.yml/badge.svg)](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/test.yml)
 
 
 ##  Features
