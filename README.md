@@ -22,7 +22,7 @@
 [![Pylint](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/pylint.yml/badge.svg)](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/pylint.yml)
 [![Python Style Checker](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/python_style_checker.yml/badge.svg)](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/python_style_checker.yml)
 [![Python Syntax Checker](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/python_syntax_checker.yml/badge.svg)](https://github.com/Aoishi28/CSC591_Group5_Lua2Py/actions/workflows/python_syntax_checker.yml)
-##[![codecov](https://codecov.io/gh/Aoishi28/CSC591_Group5_Lua2Py/branch/main/graph/badge.svg?token=)](https://codecov.io/gh/Aoishi28/CSC591_Group5_Lua2Py)
+## [![codecov](https://codecov.io/gh/Aoishi28/CSC591_Group5_Lua2Py/branch/main/graph/badge.svg?token=)](https://codecov.io/gh/Aoishi28/CSC591_Group5_Lua2Py)
 
 ##  Features
 |HW1|NUM and SYM classes and some utility functions|
